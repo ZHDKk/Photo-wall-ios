@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VCImageShowNext.h
 //  照片墙案例上
 //
 //  Created by zh dk on 2017/8/28.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface VCImageShowNext : UIViewController
 
-
+@property (nonatomic,assign) NSUInteger imageTag;
 @end
-
